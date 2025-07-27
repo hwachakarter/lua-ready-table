@@ -45,9 +45,9 @@ my_table:print()
 
 3. `remove(index)` - now supports string indexes! Removes value by key or index.
 4. `len()` - returns absolute length of a table, icluding both named and numbered indexes.
-5. `type()` - returns table's type based on it's contents: `array` if only numbered indexes are found, `dict` if only named indexes, `combined` if both.
+5. `type()` - returns table's type based on it's contents: `array` if only numbered indexes are found, `dict` if contains only named indexes, `combined` if both.
 6. `insert` - same as `table.insert`
 7. `sort` - same as `table.sort`
-8. `unpack` - sam as `table.unpack`
+8. `unpack` - same as `table.unpack`
 9. `move` - same as `table.move`
 
